@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
+
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+        
+        <event type="logout" name="demonOakLogout" event="script" value="demonOakLogout.lua"/>
+        <event type="death" name="demonOakDeath" event="script" value="demonOakDeath.lua"/>
+        <event type="attack" name="demonOakAttack" event="script" value="demonOakAttack.lua"/>
+	<event type="kill" name="MonsterCounter" event="script" value="monster_counter.lua"/>
+	<event type="death" name="kingus" script="kingus.lua"/>
+        <event type="death" name="orshabaall" script="orshabaall.lua"/>
+        <event type="death" name="MythrilAxe" script="MythrilAxe.lua"/>
+        <event type="death" name="demonQuest" script="demonQuest.lua"/>
+        <event type="death" name="waldek" script="waldek.lua"/>
+        <event type="death" name="tirecz" script="tirecz.lua"/>
+        <event type="death" name="aol" script="aol.lua"/>
+        <event type="kill" name="ArenaKill" script="arenakill.lua"/>	
+		<event type="advance" name="50lvl" event="script" value="50lvl.lua"/>
+		<event type="advance" name="100lvl" event="script" value="100lvl.lua"/>
+		<event type="login" name="fraglook_register" event="script" value="fraglook.lua"/> 
+		<event type="look" name="fraglook" event="script" value="fraglook.lua"/>
+	    <event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+</creaturescripts>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+        <globalevent name="shop" interval="10000" script="shop.lua"/>
+	<globalevent name="save" interval="9000000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="9000000" event="script" value="clean.lua"/>
+
+	<globalevent name="init" type="startup" event="script" value="init.lua"/>
+	<globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/>
+	<globalevent name="record" type="record" event="script" value="record.lua"/>
+        <globalevent name="think" interval="3600000" event="script" value="raids.lua"/>
+	<!-- <globalevent name="timer_example" time="21:35:11" event="script" value="my_script.lua"/> -->
+</globalevents>
