@@ -24,6 +24,7 @@
 		<event type="advance" name="50lvl" event="script" value="50lvl.lua"/>
 		<event type="advance" name="100lvl" event="script" value="100lvl.lua"/>
 		<event type="login" name="fraglook_register" event="script" value="fraglook.lua"/> 
+		<event type="login" name="freebless" event="script" value="freebless.lua"/> 
 		<event type="look" name="fraglook" event="script" value="fraglook.lua"/>
 	    <event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
 </creaturescripts>
