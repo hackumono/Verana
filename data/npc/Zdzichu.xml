@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Benjamin" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+        <health now="100" max="100"/>
+        <look type="128" head="58" body="43" legs="38" feet="76" addons="0"/>
+        <parameters>
+                <parameter key="message_greet" value="What do you want from me, |PLAYERNAME|?" />
+		<parameter key="module_shop" value="1"/>
+                <parameter key="shop_buyable" value="letter,2597,5;label,2599,5;parcel,2595,10;platinum amulet,2171,2000;eleven amulet,2198,1500,50;garlic necklace,2199,1000,150;protection amulet,2200,300,250;dragon necklace,2201,500,200;Amulet Of Loss,2173,10000;sword ring,2207,500;axe ring,2208,500;club ring,2209,500;dwarven ring,2213,1500;ring of healing,2214,1000;might ring,2164,4000,20;stealth ring,2165,1500;power ring,2166,500;energy ring,2167,1000;life ring,2168,1200;time ring,2169,2000;"/>
+                <parameter key="shop_sellable" value=""/>
+        </parameters> 
+</npc> 
