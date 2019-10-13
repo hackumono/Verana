@@ -577,7 +577,6 @@
         <action uniqueid="7137" script="Questy/boh.lua"/>
         <action uniqueid="7138" script="Questy/giantsword.lua"/>
         <action uniqueid="7139" script="Questy/towershield.lua"/>
-        <action uniqueid="7140" script="Questy/5ccc.lua"/>
         <action uniqueid="7141" script="Questy/stoneskinamulet.lua"/>
         <action uniqueid="7142" script="Questy/stealthring.lua"/>
         <action uniqueid="7144" script="Questy/boh2.lua"/>
@@ -601,7 +600,6 @@
         <action uniqueid="7165" script="Questy/mms.lua" />
         <action uniqueid="7166" script="Questy/dragonscalemail.lua" />
         <action uniqueid="7167" script="Questy/odznaczenie1.lua" />
-        <action uniqueid="7168" script="Questy/60ccc.lua" />
         <action uniqueid="7169" script="Questy/mpa.lua" />
         <action uniqueid="7170" script="Questy/goldenlegs1.lua" />
         <action uniqueid="7171" script="Questy/demonshield.lua" />
@@ -618,14 +616,10 @@
         <action uniqueid="7182" script="Questy/odznaczenie2.lua" />
         <action uniqueid="7183" script="Questy/hotd.lua" />
         <action uniqueid="7184" script="Questy/relicsword.lua" />
-        <action uniqueid="7185" script="Questy/6cc.lua" />
         <action uniqueid="7186" script="Questy/tribalmask.lua" />
         <action uniqueid="7187" script="Questy/dwarvenlegs.lua" />
         <action uniqueid="7188" script="Questy/odznaczenie3.lua" />
         <action uniqueid="7189" script="Questy/waraxe.lua" />
-        <action uniqueid="7190" script="Questy/5cc.lua"/>
-        <action uniqueid="7191" script="Questy/10cc.lua"/>
-        <action uniqueid="7192" script="Questy/10ccc.lua"/>
         <action uniqueid="7223" script="Questy/bluerobe2.lua"/>
         <action uniqueid="7224" script="Questy/mpa2.lua"/>
         <action uniqueid="7225" script="Questy/staff.lua"/>
@@ -633,7 +627,6 @@
         <action uniqueid="7228" script="Questy/dsm2.lua"/>
         <action uniqueid="7229" script="Questy/demonshield2.lua"/>
         <action uniqueid="7230" script="Questy/hornedhelmet.lua"/>
-        <action uniqueid="7231" script="Questy/40cc.lua"/>
         <action uniqueid="7232" script="Questy/paladinarmor.lua"/>
         <action uniqueid="7233" script="Questy/demonshield3.lua"/>
         <action uniqueid="7234" script="Questy/demonbone.lua"/>
@@ -649,28 +642,22 @@
         <action uniqueid="7245" script="Questy/spellweaver'srobe.lua"/>
         <action uniqueid="7246" script="Questy/twiceslicer.lua"/>
         <action uniqueid="7247" script="Questy/sais.lua"/>
-        <action uniqueid="7248" script="Questy/5c.c.lua"/>
-        <action uniqueid="7249" script="Questy/5c..c.lua"/>
         <action uniqueid="7250" script="Questy/elitedrakenmail.lua"/>
         <action uniqueid="7251" script="Questy/dsm3.lua"/>
         <action uniqueid="7252" script="Questy/reapersaxe.lua"/>
         <action uniqueid="7253" script="Questy/magiclightwand.lua"/>
         <action uniqueid="7254" script="Questy/bloodyedge.lua"/>
-        <action uniqueid="7255" script="Questy/10cc2.lua"/>
         <action uniqueid="7256" script="Questy/crownlegs.lua"/>
         <action uniqueid="7257" script="Questy/skullcrusher.lua"/>
         <action uniqueid="7258" script="Questy/havocblade.lua"/>
         <action uniqueid="7259" script="Questy/executioner.lua"/>
-        <action uniqueid="7260" script="Questy/15cc.lua"/>
         <action uniqueid="7261" script="Questy/bluelegs.lua"/>
         <action uniqueid="7262" script="Questy/hota.lua"/>
-        <action uniqueid="7263" script="Questy/15c2c.lua"/>
         <action uniqueid="3006" script="Questy/50lvl.lua"/>
         <action uniqueid="7264" script="Questy/halistorm.lua"/>
 		<action uniqueid="7265" script="Questy/vampshield.lua"/>
 		<action uniqueid="7266" script="Questy/dragonlance.lua"/>
 		<action uniqueid="6235" script="Questy/greatshield.lua"/>
-		<action uniqueid="6237" script="Questy/30ccc.lua"/>
 		<action uniqueid="7887" script="Questy/earth.lua"/>
 		<action uniqueid="7888" script="Questy/water.lua"/>
 		<action uniqueid="7889" script="Questy/energy.lua"/>
