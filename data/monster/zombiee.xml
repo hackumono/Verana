@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<monster name="Zombiee" nameDescription="zombiee" race="undead" experience="6666" speed="184"> 
+   <health now="3000" max="3000"/> 
+	<look type="311" head="0" body="123" legs="97" feet="94" corpse="9876"/> 
+   <targetchange interval="2000" chance="28"/> 
+   <strategy attack="100" defense="0"/> 
+    <flags> 
+      <flag attackable="1"/> 
+      <flag hostile="1"/> 
+      <flag convinceable="1"/> 
+      <flag canpushitems="1"/> 
+      <flag canpushcreatures="1"/> 
+      <flag staticattack="90"/> 
+      <flag targetdistance="1"/> 
+      <flag runonhealth="0"/> 
+    </flags> 
+    <attacks> 
+        <attack name="melee" interval="2000" skill="60" attack="60"/> 
+        <attack name="manadrain" interval="1995" chance="16" target="1" min="-34" max="-68"> 
+            <attribute key="areaEffect" value="poff"/> 
+            <attribute key="shootEffect" value="death"/> 
+        </attack> 
+        <attack name="death" interval="1010" chance="10" target="0" radius="9" min="-44" max="-88"> 
+            <attribute key="areaEffect" value="mortarea"/> 
+        </attack> 
+    </attacks> 
+    <defenses armor="60" defense="40"/> 
+  <elements> 
+      <element earthPercent="20"/> 
+      <element holyPercent="-25"/> 
+      <element icePercent="10"/> 
+      <element energyPercent="30"/> 
+  </elements> 
+  <immunities> 
+    <immunity death="1"/> 
+    <immunity earth="1"/> 
+    <immunity drown="1"/> 
+    <immunity drunk="1"/> 
+    <immunity lifedrain="1"/> 
+    <immunity paralyze="1"/> 
+    <immunity invisible="1"/> 
+  </immunities> 
+  <loot>
+    <item id="2520" chance="650" /><!-- demon shield -->
+    <item id="2470" chance="650" /><!-- golden legs -->
+    <item id="1988" chance="100000"><!-- bag -->
+	<item id="7405" chance="650" /><!-- havoc blade -->
+    <item id="2472" chance="650" /><!-- magic plate armor -->
+    <item id="2160" countmax="16" chance="10000" /><!-- gold coin -->
+    <item id="2646" chance="400" /><!-- golden boots -->
+    <item id="2112" chance="400" /><!-- teddy bear -->
+        <inside>
+            <item id="2514" chance="650" /><!-- mastermind shield -->
+            <item id="8878" chance="450" /><!-- crystalline armor -->
+            <item id="2447" chance="600" /><!-- twin axe -->
+            <item id="8903" chance="450" /><!-- spellbook of lost souls -->
+            <item id="2393" chance="650" /><!-- giant sword -->
+            <item id="8887" chance="450" /><!-- frozen plate -->
+            <item id="2123" chance="800" /><!-- ring of the sky -->
+        </inside>
+    </item>
+</loot>
+</monster>
