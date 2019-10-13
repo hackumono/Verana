@@ -1,0 +1,87 @@
+<npc name="Seymour" script="data/npc/scripts/default.lua" walkinterval="2000">
+    <health now="1" max="1"/>
+    <look type="128" head="115" body="69" legs="87" feet="115" addons="0"/>
+
+    <parameters>
+        <parameter key="message_greet" value="Hello, |PLAYERNAME|. Welcome to the Academy of Rookgaard. May I sign you up as a {student}?" />
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|! And remember: No running up and down in the academy!" />
+        <parameter key="message_walkaway" value="Good bye! And remember: No running up and down in the academy!" />
+
+        <parameter key="module_shop" value="1" />
+        <parameter key="shop_sellable" value="rat,2813,2" />
+        
+
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;name;academy;lessons;library;training;bank;oracle;Rookgaard;fighting;equipment;citizens;deposit;vocation;village;Norah;monsters;skills;level;health;potion;weapon;armor;shield;rope;shovel;torch;legs;helmet;shoes;merchants;vocations;knights;paladins;druids;sorcerers;temple;shops;bridges;premium;dungeons;rats;sewers;antidote;money;Obi's;trade;Dixi's;Al Dee;trolls;loot;Destiny;Norfried;ropes;farms;equipped;guards;potions;weapons" />
+
+        <parameter key="keyword_reply1" value="I'm the master of this fine {academy}, giving {lessons} to my students." />
+        <parameter key="keyword_reply2" value="My name is Seymour, but to you I am 'Sir' Seymour." />
+        <parameter key="keyword_reply3" value="The academy is the building you are standing in. We have a {library}, a {training} centre, a {bank} and the room of the {oracle}." />
+        <parameter key="keyword_reply4" value="Oh, which lesson did you want to attend again? Was it {Rookgaard}, {fighting}, {equipment}, {citizens}, the {academy} or the {oracle}?" />
+        <parameter key="keyword_reply5" value="There are many books in the bookcases around you, unless some naughty kids stole them again. Read them for more and detailed information." />
+        <parameter key="keyword_reply6" value="When you have the time, please visit our training centre downstairs. 'Look' at the blackboards to read some import antadvice. Oh, you need a {key} for that!" />
+        <parameter key="keyword_reply7" value="In a bank you can deposit your earned gold coins safely." />
+        <parameter key="keyword_reply8" value="The oracle is a mysterious being just upstairs. It will bring you to the {Pont Vanis} or {Nilfgaard} to choose your {vocation} once youare level 10." />
+        <parameter key="keyword_reply9" value="Rookgaard is the name of this {village} as well as of the whole {island}. It belongs to the kingdom of {Pont Vanis}, in our world which iscalled {Tibia}." />
+        <parameter key="keyword_reply10" value="You have to fight {monsters} to train your {skills} and {level}. If you lose {health}, eat {food} to regain it or use a {potion}." />
+        <parameter key="keyword_reply11" value="Don't go hunting without proper equipment. You need at least a suitable {weapon}, {armor}, {shield}, {rope} and {shovel}. A {torch} isalso good as well as {legs}, a {helmet} and {shoes}." />
+        <parameter key="keyword_reply12" value="Most of the citizens here are {merchants}. You can give me the name of any non-player character and I will tell you something about him or her." />
+
+        <parameter key="keyword_reply13" value="Yes, depositing your money will keep it safe, so it is a good idea to store it in the bank. Of course, you can always withdraw it again." />
+        
+        <parameter key="keyword_reply14" value="There are four vocations: {knights}, {paladins}, {sorcerers} and {druids}. You can choose your vocation once you are level 10 and have talked to the oracle." />
+        <parameter key="keyword_reply15" value="The most important places in this village are the {temple}, the different {shops}, the {academy} and the {bridges}." />
+        
+        
+        <parameter key="keyword_reply16" value="The world of Norah is very large with tons of places to explore. Vast deserts, Caribbean islands, deep jungles, greenmeadows and jagged mountains await you!" />
+        <parameter key="keyword_reply17" value="Good monsters to start hunting are {rats}. They live in the {sewers} below the village." />
+        <parameter key="keyword_reply18" value="The more you fight with a weapon, the better will be your skill handling this weapon. Don't worry about that right nowthough, this will become important once you have a vocation." />
+        <parameter key="keyword_reply19" value="Once you gained enough experience for a level, you will advance. This means - among other things - more {health} points, afaster walking speed and more strength to carry things." />
+        <parameter key="keyword_reply20" value="Your current health is shown by the red bar on the right side. Death awaits you if it goes down to zero." />
+        
+        <parameter key="keyword_reply21" value="Use a small health potion in case of emergencies to fill up around 75 health points. She alsohas {antidote} potions." />
+        <parameter key="keyword_reply22" value="The starter weapon, a club, won't get you far. You should earn some {money} and buy a better weapon such as a sabre from {Obi's} shop. Simply ask for a {trade}." />
+        <parameter key="keyword_reply23" value="The starter armor, a coat, does not protect you well. First of all, earn some money and try to get a sturdy leather armorfrom {Dixi's} shop. Simply ask for a {trade}." />
+        <parameter key="keyword_reply24" value="I fear you have to buy your first shield by yourself. A wooden shield from {Dixi} is a good choice." />
+        <parameter key="keyword_reply25" value="You definitely need a rope to progress in dungeons, else you might end up stuck. Buy one from {Al Dee}." />
+        <parameter key="keyword_reply26" value="A shovel is needed to dig some {dungeon} entrances open. 'Use' it on a loose stone pile to make a hole large enough to enter." />
+        <parameter key="keyword_reply27" value="A torch will provide you with light in dark {dungeons}. 'Use' it to light it. You can buy them from {Al Dee}." />
+        <parameter key="keyword_reply28" value="Leather legs might be a good basic protection. You can buy them from {Dixi}. Or, once you are strong enough,hunt {trolls}. They sometimes carry them in their {loot}." />
+        <parameter key="keyword_reply29" value="A sturdy leather helmet is a good choice for a beginner. You can either buy it from {Dixi}, or, once you arestrong enough, {loot} them from {trolls}." />
+        <parameter key="keyword_reply30" value="Leather boots are basic shoes which will protect you well. You can either buy them from {Dixi}, or, once you arestrong enough, {loot} them from {trolls}." />
+        <parameter key="keyword_reply31" value="Merchants buy and sell goods. Just ask them for a {trade} to see what they offer or buy from you." />
+        <parameter key="keyword_reply32" value="There are four vocations: {knights}, {paladins}, {sorcerers} and {druids}. You can choose your vocation once you are level 8 and have talked to the {oracle}." />
+        <parameter key="keyword_reply33" value="Knights are strong melee fighters. You will learn all about them once you are level 10 and reached the Island of {Destiny}." />
+        <parameter key="keyword_reply34" value="Paladins are swift distance fighters. You will learn all about them once you are level 10 and reached the Island of {Destiny}." />
+        <parameter key="keyword_reply35" value="Druids are nature magic users and great healers. You will learn all about them once you are level 10 and reached the Island of {Destiny}." />
+        <parameter key="keyword_reply36" value="Sorcerers are talented elemental magicians. You will learn all about them once you are level 10 and reached the Island of {Destiny}." />
+        <parameter key="keyword_reply37" value="The temple is the place to go when you are very low on {health} or poisoned. Ask {Norfried} for a heal - he usually notices emergencies by himself." />
+        <parameter key="keyword_reply38" value="We have a {weapon} and an {armor} shop south of the academy. {Equipment} such as {ropes} are sold to the north-west. {Potion} scan be bought to the south. And then there are the {farms}." />
+        <parameter key="keyword_reply39" value="There is a bridge to the north and one to the west which lead outside the village. You should only leave once you are well {equipped} and at least level 2." />
+        <parameter key="keyword_reply40" value="Paying for your Tibia account will turn it into a premium account. This means access to more areas and functions of thegame as well as other neat features." />
+        <parameter key="keyword_reply41" value="You should not descend into dungeons without proper {equipment}. Once you are all prepared, ask the bridge {guards} for suitable {monsters}." />
+        <parameter key="keyword_reply42" value="To attack a rat, simply click on it in your battle list. Make sure that you have proper {equipment}, though! Also, I give you 2 gold coins for each {dead rat}." />
+        <parameter key="keyword_reply43" value="One entrance to the sewers is south of this {academy}. Look for a sewer grate, then use it to climb down." />
+       
+        
+        
+        <parameter key="keyword_reply44" value="Some monsters poison you. To heal poison, use an antidote potion on yourself. Buy them at {Lily}'s store." />
+        <parameter key="keyword_reply45" value="Make money buy killing {monsters} and picking up their {loot}. You can sell many of the things they carry." />
+        <parameter key="keyword_reply46" value="Obi sells and buys {weapons}. You can find his shop south of the academy." />
+
+        <parameter key="keyword_reply47" value="I personally don't have anything to trade, but you can ask {merchants} for a trade. That will open a window where you cansee their offers and the things they buy from you." />
+        <parameter key="keyword_reply48" value="Dixi sells and buys {armors}, {shields}, {helmets} and {legs}. You can find her shop south of the academy, just go up the stairs in {Obi}'s shop." />
+        <parameter key="keyword_reply49" value="Dixi sells and buys {armors}, {shields}, {helmets} and {legs}. You can find her shop south of the academy, just go up the stairs in {Obi}'s shop." />
+        <parameter key="keyword_reply50" value="Al Dee has a general {equipment} store in the north-western part of the village. He sells useful stuff such as {ropes}." />
+        <parameter key="keyword_reply51" value="Trolls are quite nasty monsters which you shouldn't face before level 3 or 4 depending on your {equipment}. Ask the bridge {guards} for their locations!" />
+        <parameter key="keyword_reply52" value="Once a monster is dead, you can select 'Open' on the {corpse} to check what's inside. Sometimes they carry {money} or other items which you can sell to {merchants}." />
+        <parameter key="keyword_reply53" value=" Hmmm, let me look at you. You got that intelligent sparkle in your eyes and you'd love to handle great power - that must bea future sorcerer!" />
+        <parameter key="keyword_reply54" value="A humble monk living in the {temple} south of here. He can heal you if you are wounded or poisoned." />
+        <parameter key="keyword_reply55" value="You definitely need a rope to progress in dungeons, else you might end up stuck. Buy one from {Al Dee} or {Lee'Delle}." />
+        <parameter key="keyword_reply56" value="The farms are west of here. You can buy and sell {food} there which you need to regain {health}." />
+        <parameter key="keyword_reply57" value="Don't go hunting without proper equipment. You need at least a suitable {weapon}, {armor}, {shield}, {rope} and {shovel}. A {torch} is also good as well as {legs}, a {helmet} and {shoes}." />
+        <parameter key="keyword_reply58" value="The guards {Dallheim} and {Zerbrus} protect our village from {monsters} trying to enter. They also mark useful {dungeon} locations on your map." />
+        <parameter key="keyword_reply59" value="Use a small health potion in case of emergencies to fill up around 75 health points. You can buy them at {Lily}'s shop. She alsohas {antidote} potions." />
+        <parameter key="keyword_reply60" value="The starter weapon, a club, won't get you far. You should earn some money and buy a better weapon such as a sabre from {Obi}'s or {Lee'Delle}'s shop. Simply ask for a {trade}." />
+    </parameters>
+</npc> 

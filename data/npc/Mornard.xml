@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mornard" script="data/npc/scripts/mammoth.lua" walkinterval="2000">
+	<health now="150" max="150"/>
+	<look type="144" head="57" body="49" legs="24" feet="96" corpse="2212" />
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="dry,396,514,7,0;demons,877,301,7,0;djines,430,744,7,0;hill,619,772,7,0;church,708,628,7,0;station,631,647,7,0;volcano,605,441,7,0;nilfgaard,565,377,7,0;arena,823,394,7,0" />
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;help;go;where" />
+		<parameter key="keyword_reply1" value="I am the cabby of this waggon." />
+		<parameter key="keyword_reply2" value="You can travel to {dry} hills, {demons} isle, {djines} tower, dragons {hill}, {church} in Pont Vanis, {station} in Pont Vanis, {volcano}, {Nilfgaard} and {arena}, everywhere for free." />
+		<parameter key="keyword_reply3" value="You can travel to {dry} hills, {demons} isle, {djines} tower, dragons {hill}, {church} in Pont Vanis, {station} in Pont Vanis, {volcano}, {Nilfgaard} and {arena}, everywhere for free." />
+		<parameter key="keyword_reply4" value="You can travel to {dry} hills, {demons} isle, {djines} tower, dragons {hill}, {church} in Pont Vanis, {station} in Pont Vanis, {volcano}, {Nilfgaard} and {arena}, everywhere for free." />
+	</parameters>
+</npc>

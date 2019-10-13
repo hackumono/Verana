@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Totex" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="128" head="58" body="68" legs="109" feet="131" addons="0"/>
+    <parameters>
+     <parameter key="module_shop" value="1"/>
+    <parameter key="shop_buyable" value="meat,2666,5;fish,2667,5;ham,2671,8;dragon ham,2672,20;brown mushroom,2789,10;sickle,2405,250;knife,2403,250;crowbar,2416,250;spear,2389,10"/>
+    <parameter key="shop_sellable" value=""/>
+    </parameters>
+</npc>

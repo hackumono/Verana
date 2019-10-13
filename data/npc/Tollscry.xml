@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tollscry" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="58" body="68" legs="101" feet="95" addons="0"/>
+    <parameters>
+    <parameter key="module_shop" value="1"/>
+    <parameter key="shop_buyable" value="SSE,10511,10000;SGG,10513,15000;WDF,10515,20000;mechanical fishing rod,10223,5000;demon backpack,10518,10000;orange backpack,10519,500;orange bag,10520,100;crown backpack,10522,5000;brown bag,1987,20;brown backpack,1988,20;brocade backpack,9774,20;green bag,1991,5;red bag,1992,5;purple bag,1993,5;blue bag,1995,5;grey bag,1997,5;yellow backpack,1999,20;red backpack,2000,20;purple backpack,2001,20;blue backpack,2002,20;grey backpack,2003,20;golden backpack,2004,20;beach backpack,5949,20;beach bag,5950,20;camouflage bag,3939,20;camouflage backpack,3940,20;pirate backpack,5926,20;pirate bag,5927,5;fur backpack,7342,20;fur bag,7343,20;rope,2120,50;scythe,2550,50;pick,2553,50;shovel,2554,50"/>
+    <parameter key="shop_sellable" value=""/>
+    </parameters>
+</npc>

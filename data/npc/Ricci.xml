@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ricci" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="153" head="78" body="63" legs="58" feet="115" addons="1"/>
+	<parameters>
+		<parameter key="module_shop" value="2"/>
+		<parameter key="shop_buyable" value="Ice rapier,2396,5000;Serpent sword,2409,6000;Dark armor,2489,1500;Dark helmet,2490,1000;Ancient shield,2532,5000;Beholder shield,2518,7000;Noble armor,2486,8000;Spike sword,2383,8000;War hammer,2391,10000"/>
+		<parameter key="shop_sellable" value="Dragon hammer,2434,2000;Giant sword,2393,17000;Knight axe,2430,2000;Poison dagger,2411,50;Scimitar,2419,150;Serpent sword,2409,900;Skull staff,2436,6000;Dark armor,2489,400;Knight armor,2476,5000;Dark helmet,2490,250;Mystic turban,2663,2000;Strange helmet,2479,500;Warrior helmet,2475,5000;Knight legs,2477,5000;Ancient shield,2532,900;Black shield,2529,800;Tower shield,2528,8000;Vampire shield,2534,15000;Beholder shield,2518,1200;Crown shield,2519,8000;Dragon shield,2516,4000;Guardian shield,2515,2000;Blue robe,2656,10000;Crown armor,2487,12000;Noble armor,2486,900;Boots of haste,2195,30000;Broad sword,2413,500;Dragon lance,2414,9000;Fire axe,2432,8000;Fire sword,2392,4000;Ice rapier,2396,1000;Obsidian lance,2425,500;Spike sword,2383,1000;War hammer,2391,1200;Crown helmet,2491,2500;Crusader helmet,2497,6000;Royal helmet,2498,30000;Crown legs,2488,12000"/>
+	</parameters>
+</npc>
