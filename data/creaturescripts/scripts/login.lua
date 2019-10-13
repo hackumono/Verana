@@ -60,6 +60,7 @@ end
      registerCreatureEvent(cid, "aol")
      registerCreatureEvent(cid, "pktcc")
      registerCreatureEvent(cid, "pktcc1")
+     registerCreatureEvent(cid, "freebless")
      registerCreatureEvent(cid, "pktcc2")
      registerCreatureEvent(cid, "pktcc3")
      registerCreatureEvent(cid, "pktcc4")
