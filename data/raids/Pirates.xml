@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+<announce delay="1000" type="event" message="[Boss Island] Pirates are launching a surprise attack !! Take care, they seem to be everywhere." />
+<announce delay="10000" type="event" message="[Boss Island] Pirates have invaded the city." />
+
+  <!--Area Spawns-->
+  <areaspawn delay="11000" fromx="32135" fromy="32482" fromz="7" tox="32187" toy="32522" toz="7">
+    <monster name="Pirate Corsair" amount="55" />
+    <monster name="Pirate Buccaneer" amount="50" />
+    <monster name="Pirate Cutthroat" amount="55" />
+    <monster name="Pirate Marauder" amount="55" />
+    <monster name="Smuggler" amount="55" />
+  </areaspawn>
+
+<!--Single Spawns-->
+  <singlespawn delay="11000" name="Deadeye Devious" x="32162" y="32514" z="7" />
+
+<!--Single Spawns-->
+  <singlespawn delay="1000" name="Ron the Ripper" x="32163" y="32512" z="7" />
+
+<!--Single Spawns-->
+  <singlespawn delay="1000" name="Brutus Bloodbeard" x="32164" y="32510" z="7" />
+
+<!--Single Spawns-->
+  <singlespawn delay="1000" name="Lethal Lissy" x="32160" y="32510" z="7" />
+  </raid>

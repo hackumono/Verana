@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="[Boss Island] An ancient evil is awakening!." />
+  <announce delay="30000" type="Event" message="[Boss Island] Demonic entities are entering the mortal realm !." />
+  <announce delay="60000" type="Event" message="[Boss Island] The demonic master has revealed themselves !." />
+  <!--Single Spawns-->
+  <singlespawn delay="60000" name="Ghazbaran" x="32161" y="32510" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="50000" fromx="32156" fromy="32509" fromz="7" tox="32169" toy="32516" toz="7">
+    <monster name="Juggernaut" amount="3" />
+  </areaspawn>
+  <areaspawn delay="55000" fromx="32156" fromy="32509" fromz="7" tox="32169" toy="32516" toz="7">
+    <monster name="Fury" amount="6" />
+  </areaspawn>
+  <areaspawn delay="58000" fromx="32156" fromy="32509" fromz="7" tox="32169" toy="32516" toz="7">
+    <monster name="Demon" amount="4" />
+  </areaspawn>
+</raid>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+    <!--Announcements-->
+    <announce delay="1000" type="event" message="[Boss Island] Beware of Demodras!" />
+ 
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Demodras" x="32111" y="32467" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="1000" fromx="32110" fromy="32458" fromz="7" tox="32120" toy="32467" toz="7">
+    <monster name="Dragon Lord" amount="5" />
+  </areaspawn>
+</raid>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<raid> 
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements--> 
+  <announce delay="1000" type="Event" message="[Boss Island] A massive Zulazza the Corruptor force is gathering at the gates of Zzaion." /> 
+  <announce delay="30000" type="Event" message="[Boss Island] Zulazza the Corruptor reinforcements have arrived at the gates of Zzaion! The gates are under heavy attack!" /> 
+  <announce delay="60000" type="Event" message="[Boss Island] More orc reinforcements have arrived at the gates of Zzaion! The gates are under heavy attack!" /> 
+  <announce delay="90000" type="Event" message="[Boss Island] The gates to Zzaion have been breached! Chizzoron the Distorter are invading the city!" /> 
+  <announce delay="120000" type="Event" message="[Boss Island] More Chizzoron the Distorter have arrived in Zzaion! The city is under attack! Strong lizard leaders have come to defend the city." /> 
+<!--Single Spawns--> 
+  <singlespawn delay="120000" name="Zulazza the Corruptor" x="32170" y="32495" z="7" />
+  <singlespawn delay="120000" name="Chizzoron the Distorter" x="32173" y="32494" z="7" />
+</raid>

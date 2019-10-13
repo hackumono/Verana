@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+<announce delay="1000" type="event" message="[Boss Island] Something is moving in the depths of the sea around." />
+<announce delay="20000" type="event" message="[Boss Island] Numerous Quara fins have been sighted in the seas around." />
+<announce delay="60000" type="event" message="[Boss Island] Quara emerged from the sea to attack." />
+
+  <!--Area Spawns-->
+  <areaspawn delay="60000" fromx="32135" fromy="32482" fromz="7" tox="32187" toy="32522" toz="7">
+      <monster name="Quara Mantassin Scout" amount="12" />
+<monster name="Quara Constrictor Scout" amount="12" />
+    <monster name="Quara Hydromancer Scout" amount="12" />
+    <monster name="Quara Pincher Scout" amount="12" />
+    <monster name="Quara Predator Scout" amount="10" />
+  </areaspawn>
+
+
+
+
+</raid>

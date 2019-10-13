@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="[Boss Island] The mating season of the giant spiders is at hand. " />
+  <announce delay="180000" type="Event" message="[Boss Island] Giant spiders have gathered for their mating season. Beware!" />
+  <!--Single Spawns-->
+  <singlespawn delay="180000" name="The Old Widow" x="32136" y="32514" z="7" />
+  <!--Area Spawns-->
+  <areaspawn delay="170000" fromx="32127" fromy="32506" fromz="7" tox="32141" toy="32521" toz="7">
+    <monster name="Giant Spider" amount="10" />
+  </areaspawn>
+</raid>

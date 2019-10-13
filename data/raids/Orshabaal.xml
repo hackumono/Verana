@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="[Boss Island] Orshabaal's minions are working on his return to the World." />
+  <announce delay="20000" type="Event" message="[Boss Island] Orshabaal is about to make his way into the mortal realm. Run for your lives! " />
+  <announce delay="60000" type="Event" message="[Boss Island] Orshabaal has been summoned from hell to plague the lands of mortals once again. " />
+  <!--Single Spawns-->
+  <singlespawn delay="60000" name="Orshabaal" x="32141" y="32486" z="7" />
+  <!--Area Spawns-->
+</raid>

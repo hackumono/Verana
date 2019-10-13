@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="[Boss Island] The ancient volcano slowly becomes active once again." />
+  <announce delay="30000" type="Event" message="[Boss Island] There is an evil presence at the volcano." />
+  <announce delay="60000" type="Event" message="[Boss Island] Evil Cultists have called an ancient evil into the volcano. Beware of its power mortals." />
+  <!--Single Spawns-->
+  <singlespawn delay="60000" name="Morgaroth" x="32197" y="32502" z="7" />
+</raid>
