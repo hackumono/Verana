@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Max Calassa" script="data/npc/scripts/tp/all_boatCallasa1.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="134" head="95" body="10" legs="56" feet="77" addons="0"/>
+ <parameters>
+        <parameter key="message_greet" value="Welcome on board, Sir |PLAYERNAME|. I can take you to Thais, Carlin, Venore, Abdendriel, Edron, Svargrond, Goroma, Ankrahmun, Darashia, Liberty Bay, Port Hope, Yalahar, Oken, Gengia, Pyre, Vikia, Ghala, Ghenov, Demona, Poh, Zao and Razachai."/>
+        <parameter key="message_farewell" value="Good bye. Recommend us if you were satisfied with our service."/>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="helmet of the deep,5461,5000;" />
+        <parameter key="shop_sellable" value="helmet of the deep,5461,5000;" />
+    </parameters>
+</npc>

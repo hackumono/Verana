@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Addoner" script="data/npc/scripts/addon.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="134" head="78" body="88" legs="0" feet="88" addons="3"/>
+	<parameters>
+	<parameter key="message_greet" value="Greetings |PLAYERNAME|. I can sell you many nice addons! Just say 'addons'." />
+	<parameter key="module_shop" value="2"/>	
+        <parameter key="shop_buyable" value="Blessed wooden stake,5942,10000;"/>
+	<parameter key="shop_sellable" value="Sniper gloves,5875,10000;Lizard leather,5876,500;Green dragon leather,5877,500;Minotaur leather,5878,500;Giant spider silk,5879,5000;Iron ore,5880,2500;Lizard scale,5881,500;Red dragon scale,5882,1500;Ape fur,5883,600;Spool of yarn,5886,50000;Piece of hell steel,5888,5000;Chicken feather,5890,500;Perfect behemoth fang,5893,2000;Bat wing,5894,250;Bear paw,5896,500;Wolf paw,5897,500;Turtle shell,5899,500;Honeycomb,5902,1000;Ferumbras hat,5903,1000000;Magic sulphur,5904,15000;Vampire dust,5905,5000;Demon dust,5906,10000;Dragon claw,5919,500000;Green dragon scale,5920,250;Holy orchid,5922,2500;Behemoth claw,5930,10000;Hook,6097,1000;Eye patch,6098,1000;Brutus Bloodbeards hat,6099,200000;Lethal lissy shirt,6100,300000;White piece of cloth,5909,1000;Green piece of cloth,5910,1000;Red piece of cloth,5911,1000;Blue piece of cloth,5912,1000;Brown piece of cloth,5913,1000;Yellow piece of cloth,5914,1000;Morgaroths heart,5943,1200000;Soul orb,5944,250;Red dragon leather,5948,1000;Demonic essence,6500,3000;Dracolas eye,6546,600000;Nose ring,5804,300000;Orshabaal brain,5808,1500000;Soul stone,5809,150000;Piece of massacres shell,6540,600000;Mr. punishs handcuffs,6537,1250000;Plasmothers remains,6535,500000;Handmaidens protector,6539,500000;Countess sorrows frozen tear,6536,500000;Imperors trident,6534,600000;Spiderwebs,8860,400000;Toy spider,9006,100000;Firlefanz,7959,250000"/>
+    </parameters>
+</npc>

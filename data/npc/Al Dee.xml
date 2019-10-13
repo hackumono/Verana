@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Al Dee" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="155" body="149" legs="121" feet="79" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome {|PLAYERNAME|}! I'm selling {tools}." />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="seeds,7732,40;waterskin,7734,50;flower bowl,7655,150;knife,2566,10;pick,2553,70;rope,2120,50;backpack,1988,10;bag,1987,4;torch,2050,2;shovel,2554,10;fishing rod,2580,150;worm,3976,1;scroll,1949,5;scythe,2550,12;"/>
+		<parameter key="shop_sellable" value="rope,2120,8;fishing rod,2580,30;shovel,2554,2;"/>
+	</parameters>
+</npc>
