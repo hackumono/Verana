@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+<quest name="HellHound Quest" startstorageid="14179" startstoragevalue="1">
+</quest>
+<quest name="Annihilator" startstorageid="49111" startstoragevalue="1">
+</quest>
+<quest name="Annihilator 2" startstorageid="8005" startstoragevalue="1">
+</quest>
+<quest name="Armore Quest" startstorageid="5085" startstoragevalue="1">
+</quest>
+<quest name="Demon Quest" startstorageid="7202" startstoragevalue="1">
+</quest>
+<quest name="Desert Quest" startstorageid="5097" startstoragevalue="1">
+</quest>
+<quest name="Demon Helmet Quest" startstorageid="60746" startstoragevalue="1">
+</quest>
+<quest name="Djines Coals Quest" startstorageid="12961" startstoragevalue="1">
+</quest>
+<quest name="Demon Oak Quest" startstorageid="12900" startstoragevalue="1">
+</quest>
+<quest name="Elemental Quest" startstorageid="5020" startstoragevalue="1">
+</quest>
+<quest name="Fire Quest" startstorageid="5010" startstoragevalue="1">
+</quest>
+<quest name="Undead Quest" startstorageid="5073" startstoragevalue="1">
+</quest>
+<quest name="Inquisition Quest" startstorageid="8560" startstoragevalue="1">
+</quest>
+<quest name="Kalazur Pits" startstorageid="5093" startstoragevalue="1">
+</quest>
+<quest name="Pits Of Inferno" startstorageid="10547" startstoragevalue="1">
+</quest>
+<quest name="Yalahar Quest" startstorageid="102504" startstoragevalue="1">
+</quest>
+<quest name="Zao Quest" startstorageid="5109" startstoragevalue="1">
+</quest>
+<quest name="Forest Quest" startstorageid="5094" startstoragevalue="1">
+</quest>
+<quest name="Svargrond Arena:Greenhorn" startstorageid="42361" startstoragevalue="1">
+</quest>
+<quest name="Svargrond Arena:Scrapper" startstorageid="42371" startstoragevalue="1">
+</quest>
+<quest name="Svargrond Arena:Warlord" startstorageid="42381" startstoragevalue="1">
+</quest>
+<quest name="Svargrond Arena:Demonic" startstorageid="42391" startstoragevalue="1">
+</quest>
+
+</quests>
