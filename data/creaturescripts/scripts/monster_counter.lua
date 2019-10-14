@@ -72,13 +72,13 @@ function onKill(cid, target)
 		end
 	elseif name == "Juggernaut" then
 		if(isPlayer(target) == FALSE and monster and getPlayerStorageValue(cid, 46020) == 1) then
-			if getPlayerStorageValue(cid, monster) < 111 then 
+			if getPlayerStorageValue(cid, monster) < 500 then 
 				local killedMonsters = getPlayerStorageValue(cid, monster)
            	 if(killedMonsters == -1) then
            	     killedMonsters = 1
 				end
 				setPlayerStorageValue(cid, monster, killedMonsters + 1)
-				doPlayerSendTextMessage(cid, 22, "You have killed " .. killedMonsters .. " of 111 juggernauts.")
+				doPlayerSendTextMessage(cid, 22, "You have killed " .. killedMonsters .. " of 500 juggernauts.")
 			else
 				doPlayerSendTextMessage(cid, 22, "You have killed enough jugegernauts.")
 				setPlayerStorageValue(cid, 46020, 2)
