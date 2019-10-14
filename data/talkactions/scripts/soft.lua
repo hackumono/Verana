@@ -8,9 +8,9 @@ exhaustion.set(cid, 30032, 10)
 local stare = 10021 
 local nowe = 6132 
 local pozycja = getPlayerPosition(cid) 
-local tekst = "Soft" -- Wpisz tekst
-local tekst1 = "Softy zostaly odnowione !" -- Co ma pisac jak nie ma softow
-local tekst2 = "Nie masz kasy..." -- Co ma pisac jak nie ma kasy
+local tekst = "Soft boots repaired." -- Wpisz tekst
+local tekst1 = "You do not have a pair of soft boots." -- Co ma pisac jak nie ma softow
+local tekst2 = "You do not have enough money." -- Co ma pisac jak nie ma kasy
 -- /\ Panel konfiguracji skryptu /\
 if doPlayerRemoveMoney(cid,10000) == TRUE then 
 if doPlayerRemoveItem(cid,stare,1) == TRUE and doPlayerAddItem(cid,nowe,1) == TRUE then 
