@@ -3546,25 +3546,16 @@ double Player::getGainedExperience(Creature* attacker) const
 	if(!attackerPlayer || attackerPlayer == this)
 		return 0;
 
-	double attackerLevel = (double)attackerPlayer->getLevel(), min = g_config.getDouble(
-		ConfigManager::EFP_MIN_THRESHOLD), max = g_config.getDouble(ConfigManager::EFP_MAX_THRESHOLD);
-	if((min > 0 && level < (uint32_t)std::floor(attackerLevel * min)) || (max > 0 &&
-		level > (uint32_t)std::floor(attackerLevel * max)))
-		return 0;
-
 	/*
 		Formula
-		a = attackers level * 0.9
-		b = victims level
 		c = victims experience
 
-		result = (1 - (a / b)) * 0.05 * c
+		result = 0.05 * c
 		Not affected by special multipliers(!)
 	*/
-	uint32_t a = (uint32_t)std::floor(attackerLevel * 0.9), b = level;
 	uint64_t c = getExperience();
 	return (double)std::max((uint64_t)0, (uint64_t)std::floor(getDamageRatio(attacker)
-		* std::max((double)0, ((double)(1 - (((double)a / b))))) * 0.05 * c)) * rate;
+		* std::max((double)0, (double)0.05 * c))) * rate;
 }
 
 void Player::onFollowCreature(const Creature* creature)
