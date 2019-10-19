@@ -43,7 +43,7 @@
             <item id="2387" chance="875" /><!-- double axe -->
             <item id="7618" chance="975" /><!-- health potion -->
             <item id="2580" chance="1350" /><!-- fishing rod -->
-            <item id="1898" chance="800" /><!-- minotaur trophy -->
+            <item id="7401" chance="800" /><!-- minotaur trophy -->
         </inside>
     </item>
 </loot>
