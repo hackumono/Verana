@@ -328,7 +328,6 @@
 	<monster name="Dryad" file="Event/dryad.xml"/>
 	<monster name="Grynch Clan Goblin" file="Event/grynch clan goblin.xml"/>
 	<monster name="Undead Jester" file="Event/undead jester.xml"/>
-	<monster name="Demon (Goblin)" file="Event/goblin.xml"/>
         <monster name="Trainer" file="Event/Trainer.xml"/>
 
 	<!-- Goblins -->
