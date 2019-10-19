@@ -537,32 +537,4 @@
 	<monster name="Zombie" file="Undeads/zombie.xml"/>
 	<monster name="Bonebeast" file="Undeads/bonebeast.xml"/>
 
-        <!-- Nowe -->
-        <monster name="Demonic" file="Nowe/demonic.xml"/>
-        <monster name="Green Mage" file="Nowe/green mage.xml"/>
-	<monster name="Dark Mage" file="Nowe/dark mage.xml"/>
-        <monster name="Hellish Tortoise" file="Nowe/Hellish Tortoise.xml"/>
-        <monster name="Red Mage" file="Nowe/red mage.xml"/>
-        <monster name="Royal Hero" file="Nowe/royal hero.xml"/>
-        <monster name="Hegard" file="Nowe/hegard.xml"/>
-        <monster name="Helfire Fighter" file="Nowe/helfire fighter.xml"/>
-        <monster name="Elder Dwarf Geomancer" file="Nowe/Elder Dwarf Geomancer.xml"/>
-	<monster name="Giant Rotworm" file="Nowe/Giant Rotworm.xml"/>
-        <monster name="Flame Dancer" file="Nowe/Flame Dancer.xml"/>
-        <monster name="Elder Infernalist" file="Nowe/Elder Infernalist.xml"/>
-        <monster name="Lost Dragon" file="Nowe/Lost Dragon.xml"/>
-        <monster name="Great Wyvern" file="Nowe/Great Wyvern.xml"/>
-	<monster name="Ancient Wyrm" file="Nowe/Ancient Wyrm.xml"/>
-        <monster name="Great Water Snake" file="Nowe/Great Water Snake.xml"/>
-	<monster name="Great Water Elemental" file="Nowe/Great Water Elemental.xml"/>
-        <monster name="Advanced War Golem" file="Nowe/Advanced War Golem.xml"/>
-	<monster name="Experimantal War Golem" file="Nowe/Experimantal War Golem.xml"/>
-        <monster name="Greater Cryon" file="Nowe/Greater Cryon.xml"/>
-        <monster name="Heavy Cryon" file="Nowe/Heavy Cryon.xml"/>
-	<monster name="Cryonid" file="Nowe/Cryonid.xml"/>
-        <monster name="Great Slime" file="Nowe/Great Slime.xml"/>
-	<monster name="Dieased Warrior" file="Nowe/Dieased Warrior.xml"/>
-        <monster name="Human From Slime" file="Nowe/Human From Slime.xml"/>
-        <monster name="Heavy Energy Elemental" file="Nowe/Heavy Energy Elemental.xml"/>
-	<monster name="Great Energy Elemental" file="Nowe/Great Energy Elemental.xml"/>
 </monsters>
