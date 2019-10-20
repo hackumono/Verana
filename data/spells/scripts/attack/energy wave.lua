@@ -1,6 +1,6 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_ENERGYDAMAGE)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ENERGYAREA)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_TELEPORT)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGY)
 setAttackFormula(combat, COMBAT_FORMULA_LEVELMAGIC, 5, 5, 4.5, 9)
 
