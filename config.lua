@@ -201,7 +201,7 @@
 	rateExperienceFromPlayers = 3
 	rateSkill = 10
 	rateMagic = 5
-	rateLoot = 1.5
+	rateLoot = 1.2
 	rateSpawn = 3
 
 	rateMonsterHealth = 1.0
